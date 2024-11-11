@@ -1,6 +1,7 @@
 import requests
 import json
 
+# Defining the API endpoint and request headers
 url = 'http://localhost:11434/api/generate'
 headers = {'Content-Type': 'application/json'}
 data = {

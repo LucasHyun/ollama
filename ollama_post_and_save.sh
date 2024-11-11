@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#These are the steps to run the script
+
 URL="http://localhost:11434/api/generate"
 
 JSON_DATA='{
@@ -16,3 +18,4 @@ curl -s "$URL" -H "Content-Type: application/json" -d "$JSON_DATA" -o "$OUTPUT_F
 
 # Print the message to the console that the file has been saved
 echo "Response has been saved to $OUTPUT_FILE"
+
