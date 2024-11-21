@@ -6,7 +6,9 @@ url = 'http://localhost:11434/api/generate'
 headers = {'Content-Type': 'application/json'}
 data = {
     'model': 'llama3.2',
-    'prompt': 'who is the president of the united states?',
+    'prompt': 'Generate an SQL query to find the top 5 players with the highest average scores 
+    in the last season from the 'player_stats' table. Include player name, team, and
+    average score, ordered by average score descending.',
     'stream': False
 }
 
